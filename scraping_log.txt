@@ -1,0 +1,55 @@
+2024-12-01 16:06:10,850:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,850:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,851:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,851:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,851:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,851:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,851:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,851:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,851:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,851:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,852:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,852:ERROR:Error parsing row: 'NoneType' object has no attribute 'text'
+2024-12-01 16:06:10,967:INFO:Scraped and processed 0 trades
+2024-12-01 16:06:10,969:INFO:Date range: NaT to NaT
+2024-12-01 16:06:10,969:INFO:Number of unique politicians: 0
+2024-12-01 16:06:10,969:INFO:Number of unique stocks: 0
+2024-12-01 16:06:10,970:INFO:Amount range: $nan to $nan
+2024-12-01 16:23:30,922:INFO:Scraped and processed 0 trades
+2024-12-01 16:23:30,924:INFO:Date range: NaT to NaT
+2024-12-01 16:23:30,924:INFO:Number of unique politicians: 0
+2024-12-01 16:23:30,924:INFO:Number of unique stocks: 0
+2024-12-01 16:23:30,925:INFO:Amount range: $nan to $nan
+2024-12-01 16:26:14,836:ERROR:An error occurred: 'NoneType' object is not callable
+2024-12-01 16:26:40,598:ERROR:An error occurred: 'NoneType' object is not callable
+2024-12-01 16:27:57,359:ERROR:An error occurred: 'NoneType' object is not callable
+2024-12-01 16:28:44,488:INFO:Scraped and processed 0 trades
+2024-12-01 16:28:44,490:INFO:Date range: NaT to NaT
+2024-12-01 16:28:44,490:INFO:Number of unique politicians: 0
+2024-12-01 16:28:44,490:INFO:Number of unique stocks: 0
+2024-12-01 16:28:44,490:INFO:Amount range: $nan to $nan
+2024-12-01 16:29:12,470:INFO:Scraped and processed 0 trades
+2024-12-01 16:29:12,471:INFO:Date range: NaT to NaT
+2024-12-01 16:29:12,472:INFO:Number of unique politicians: 0
+2024-12-01 16:29:12,472:INFO:Number of unique stocks: 0
+2024-12-01 16:29:12,472:INFO:Amount range: $nan to $nan
+2024-12-01 16:29:30,925:INFO:Scraped and processed 0 trades
+2024-12-01 16:29:30,926:INFO:Date range: NaT to NaT
+2024-12-01 16:29:30,926:INFO:Number of unique politicians: 0
+2024-12-01 16:29:30,926:INFO:Number of unique stocks: 0
+2024-12-01 16:29:30,926:INFO:Amount range: $nan to $nan
+2024-12-01 16:30:33,927:INFO:Scraped and processed 0 trades
+2024-12-01 16:30:33,928:INFO:Date range: NaT to NaT
+2024-12-01 16:30:33,928:INFO:Number of unique politicians: 0
+2024-12-01 16:30:33,928:INFO:Number of unique stocks: 0
+2024-12-01 16:30:33,929:INFO:Amount range: $nan to $nan
+2024-12-01 16:33:32,601:INFO:Scraped and processed 0 trades
+2024-12-01 16:33:32,602:INFO:Date range: NaT to NaT
+2024-12-01 16:33:32,603:INFO:Number of unique politicians: 0
+2024-12-01 16:33:32,603:INFO:Number of unique stocks: 0
+2024-12-01 16:33:32,603:INFO:Amount range: $nan to $nan
+2024-12-01 16:33:59,444:INFO:Scraped and processed 0 trades
+2024-12-01 16:33:59,445:INFO:Date range: NaT to NaT
+2024-12-01 16:33:59,445:INFO:Number of unique politicians: 0
+2024-12-01 16:33:59,445:INFO:Number of unique stocks: 0
+2024-12-01 16:33:59,445:INFO:Amount range: $nan to $nan

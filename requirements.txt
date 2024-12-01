@@ -1,0 +1,6 @@
+numpy
+pandas
+
+selenium
+fuzzywuzzy
+bs4
