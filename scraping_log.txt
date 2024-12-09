@@ -53,3 +53,33 @@
 2024-12-01 16:33:59,445:INFO:Number of unique politicians: 0
 2024-12-01 16:33:59,445:INFO:Number of unique stocks: 0
 2024-12-01 16:33:59,445:INFO:Amount range: $nan to $nan
+2024-12-01 16:46:30,854:INFO:Scraped and processed 0 trades
+2024-12-01 16:46:30,856:INFO:Date range: NaT to NaT
+2024-12-01 16:46:30,856:INFO:Number of unique politicians: 0
+2024-12-01 16:46:30,856:INFO:Number of unique stocks: 0
+2024-12-01 16:46:30,857:INFO:Amount range: $nan to $nan
+2024-12-01 16:46:58,877:INFO:Scraped and processed 0 trades
+2024-12-01 16:46:58,878:INFO:Date range: NaT to NaT
+2024-12-01 16:46:58,878:INFO:Number of unique politicians: 0
+2024-12-01 16:46:58,878:INFO:Number of unique stocks: 0
+2024-12-01 16:46:58,879:INFO:Amount range: $nan to $nan
+2024-12-01 16:48:44,210:INFO:Scraped and processed 0 trades
+2024-12-01 16:48:44,211:INFO:Date range: NaT to NaT
+2024-12-01 16:48:44,211:INFO:Number of unique politicians: 0
+2024-12-01 16:48:44,211:INFO:Number of unique stocks: 0
+2024-12-01 16:48:44,212:INFO:Amount range: $nan to $nan
+2024-12-01 16:49:00,250:INFO:Scraped and processed 0 trades
+2024-12-01 16:49:00,251:INFO:Date range: NaT to NaT
+2024-12-01 16:49:00,252:INFO:Number of unique politicians: 0
+2024-12-01 16:49:00,252:INFO:Number of unique stocks: 0
+2024-12-01 16:49:00,252:INFO:Amount range: $nan to $nan
+2024-12-01 16:49:24,254:INFO:Scraped and processed 0 trades
+2024-12-01 16:49:24,256:INFO:Date range: NaT to NaT
+2024-12-01 16:49:24,256:INFO:Number of unique politicians: 0
+2024-12-01 16:49:24,256:INFO:Number of unique stocks: 0
+2024-12-01 16:49:24,256:INFO:Amount range: $nan to $nan
+2024-12-01 16:51:12,385:ERROR:An error occurred: setting an array element with a sequence. The requested array has an inhomogeneous shape after 3 dimensions. The detected shape was (10, 1, 1) + inhomogeneous part.
+2024-12-01 16:51:20,324:ERROR:An error occurred: setting an array element with a sequence. The requested array has an inhomogeneous shape after 3 dimensions. The detected shape was (10, 1, 1) + inhomogeneous part.
+2024-12-01 16:51:46,911:ERROR:An error occurred: setting an array element with a sequence. The requested array has an inhomogeneous shape after 3 dimensions. The detected shape was (10, 1, 1) + inhomogeneous part.
+2024-12-01 16:52:09,395:ERROR:An error occurred: name 'df' is not defined
+2024-12-01 16:54:22,622:ERROR:An error occurred: 0

@@ -42,47 +42,36 @@ def scrape_trades():
         'html.parser'
     )
 
-    # initial table and what columns i care about:
-    # find the table columns and init df
-
-
-
-
-
+    # set up a list of pages for the table
+    all_pages = []
+   
     # only get the first instance of table
     for table in soup.find_all('tbody'):
-        table_page = table.find_all('tr') # the table is big! covers multiple pages! concat them
-        
+        table_pages = table.find_all('tr') # the table is big! covers multiple pages! concat them
+        for page in table_pages:
+            all_pages.append(page)
 
-    # print(table)
+    # unfold all pages 
+
+    # test with 1 page
+
+    test_all_pages = [page]
+
+    return page
+
+def scrape_basic_info(url):
+    '''
     
+    '''
 
 
+    df = pd.DataFrame(
+        
+    )
 
 
+    return df
 
-
-
-    ## FIND THE TABLE
-
-
-    # data = []
-    # for row in table.find_all('tr')[1:]:  # Skip header row
-    #     cols = row.find_all('td')
-    #     try:
-    #         date = cols[0].text.strip()
-    #         politician = cols[1].text.strip()
-    #         stock_name = cols[2].find('div', class_='name').text.strip()
-    #         stock_ticker = cols[2].find('div', class_='ticker').text.strip()
-    #         transaction = cols[3].text.strip()
-    #         amount = cols[4].text.strip()
-
-    #         data.append([date, politician, stock_name, stock_ticker, transaction, amount])
-    #     except Exception as e:
-    #         logging.error(f"Error parsing row: {e}")
-
-
-    return 
 
 def process_data(data):
     columns = ['Date', 'Politician', 'Stock Name', 'Stock Ticker', 'Transaction', 'Amount']
@@ -106,23 +95,25 @@ def process_data(data):
 def main():
     print('libraries loaded, attempting scrape')
     
-    try:
-        raw_data = scrape_trades()
-        df = process_data(raw_data)
+    # try:
+    raw_data = scrape_trades()
+    # print(raw_data[0], 'row 0')
+    # attempting to convert to df
+    df = process_data(raw_data)
+    
+    # Save to CSV
+    df.to_csv('congressional_trades.csv', index=False)
+    logging.info(f"Scraped and processed {len(df)} trades")
+    print(df.head())
+    
+    # Data integrity checks
+    logging.info(f"Date range: {df['Date'].min()} to {df['Date'].max()}")
+    logging.info(f"Number of unique politicians: {df['Politician'].nunique()}")
+    logging.info(f"Number of unique stocks: {df['Stock Ticker'].nunique()}")
+    logging.info(f"Amount range: ${df['Amount'].min()} to ${df['Amount'].max()}")
         
-        # Save to CSV
-        df.to_csv('congressional_trades.csv', index=False)
-        logging.info(f"Scraped and processed {len(df)} trades")
-        print(df.head())
-        
-        # Data integrity checks
-        logging.info(f"Date range: {df['Date'].min()} to {df['Date'].max()}")
-        logging.info(f"Number of unique politicians: {df['Politician'].nunique()}")
-        logging.info(f"Number of unique stocks: {df['Stock Ticker'].nunique()}")
-        logging.info(f"Amount range: ${df['Amount'].min()} to ${df['Amount'].max()}")
-        
-    except Exception as e:
-        logging.error(f"An error occurred: {e}")
+    # except Exception as e:
+    #     logging.error(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     main()
